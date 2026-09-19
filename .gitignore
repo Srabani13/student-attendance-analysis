@@ -1,4 +1,6 @@
-.ipynb_checkpoints/ 
-__pycache__/ 
-*.pyc 
-*.zip 
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.zip
+.env
+.vscode/
