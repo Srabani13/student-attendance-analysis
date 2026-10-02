@@ -1,29 +1,46 @@
-# Student Attendance Analysis
+# 📊 Student Attendance & Academic Performance Analysis
 
-## 📌 Project Overview
+An end-to-end data analytics project focused on analyzing **student attendance and academic performance** using **Python, SQL, and Power BI**.
 
-This project analyzes student attendance and academic performance data to identify attendance patterns, factors influencing student performance, and students who may be at academic risk.
+The project explores attendance patterns, absence levels, demographic differences, study-time trends, and academic performance to identify meaningful insights from student data.
 
-The analysis was performed using Python and Pandas, with the goal of generating meaningful insights that can support data-driven academic decisions.
+---
 
-## 🎯 Objectives
+## 🎯 Project Objective
 
-- Analyze student attendance patterns
-- Identify factors associated with academic performance
-- Identify students with low attendance or academic risk
-- Explore relationships between attendance and student performance
-- Generate actionable insights for academic teams
+The objective of this project is to analyze student attendance and academic performance and understand how different factors are associated with student outcomes.
+
+The project covers:
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- SQL-based data analysis
+- Attendance analysis
+- Academic performance analysis
+- Interactive Power BI dashboards
+- Business-style insights and visualizations
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-- Power BI
-- Git & GitHub
+- **Python**
+  - Pandas
+  - NumPy
+  - Matplotlib
+- **SQL**
+  - MySQL
+- **Power BI**
+  - Data visualization
+  - KPI cards
+  - Interactive filters
+  - DAX measures
+- **Jupyter Notebook**
+- **Git & GitHub**
 
-## 📂 Project Structure
+---
+
+## 📁 Project Structure
 
 ```text
 Student Attendance Analysis Dashboard/
@@ -45,16 +62,86 @@ Student Attendance Analysis Dashboard/
 │
 ├── .gitignore
 └── README.md
+```
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw Data
+   ↓
+Data Cleaning & Preprocessing
+   ↓
+Exploratory Data Analysis
+   ↓
+SQL Analysis
+   ↓
+Power BI Data Modeling
+   ↓
+Dashboard Development
+   ↓
+Insights & Findings
+```
+
+---
+
+## 🐍 Python & EDA
+
+Python was used for data preparation, cleaning, exploration, and analysis.
+
+Key activities included:
+
+- Inspecting the dataset
+- Handling missing values
+- Checking duplicate records
+- Understanding data types
+- Statistical analysis
+- Attendance analysis
+- Academic performance analysis
+- Identifying patterns and relationships between variables
+
+The analysis was performed using **Pandas, NumPy, and Matplotlib**.
+
+---
+
+## 🗄️ SQL Analysis
+
+SQL was used to perform structured analysis on the student dataset.
+
+The SQL analysis covers concepts such as:
+
+- Filtering data using `WHERE`
+- Aggregations using `GROUP BY`
+- Filtering aggregated results using `HAVING`
+- `INNER JOIN`
+- `LEFT JOIN`
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window functions
+- Ranking students
+- Attendance analysis
+- Academic performance analysis
+
+---
 
 ## 📊 Dashboard
 
-## 📊 Dashboard
+The Power BI dashboards provide an interactive view of student attendance and academic performance.
 
-The Power BI dashboard provides an interactive view of:
+### 🎓 Student Academic Performance Dashboard
 
 ![Student Academic Performance Dashboard](student_academic_performance_dashboard.png)
 
+### 📅 Student Attendance Dashboard
+
 ![Student Attendance Dashboard](student_attendance_dashboard.png)
+
+---
+
+## 📌 Dashboard Analysis
+
+The dashboards provide insights into:
 
 - Total number of students
 - Average attendance percentage
@@ -65,50 +152,67 @@ The Power BI dashboard provides an interactive view of:
 - Attendance trends by study time
 - Academic performance by school
 
+---
 
-### Key Dashboard Features
+## ⭐ Key Dashboard Features
 
-- Interactive School and Gender filters
-- KPI cards for key attendance metrics
+- Interactive school and gender filters
+- KPI cards for important attendance metrics
 - Attendance analysis by absence group
 - Student distribution by absence level
 - Academic performance comparison
+- Attendance trend analysis
 - Dark-themed professional dashboard design
+- Interactive Power BI visualizations
 
-## 🔍 Key Insights
+---
 
-- Overall student attendance was approximately 81%.
+## 💡 Key Insights
+
+- Overall student attendance was approximately **81%**.
 - Students with higher absence levels showed substantially lower attendance.
-- A significant portion of students belonged to the 0–5 absence group.
-- Attendance patterns varied across study-time levels.
-- Attendance and academic performance were analyzed together to identify students who may require additional academic support.
+- A significant portion of students belonged to the **0–5 absence group**.
+- Attendance patterns varied across different student groups.
+- The dashboards help identify students and groups requiring closer academic attention.
 
-## 🛠️ Project Workflow
+---
 
-1. Collected and reviewed the student dataset
-2. Cleaned and prepared the data using Python and Pandas
-3. Performed exploratory data analysis
-4. Created calculated fields and attendance groups
-5. Analyzed attendance and academic performance
-6. Built an interactive Power BI dashboard
-7. Generated insights for academic decision-making
+## 📈 Business Value
 
-## 📁 Project Files
+The analysis can help educational institutions:
 
-- `notebook/` – Python/Jupyter Notebook analysis
-- `raw_data/` – Original datasets
-- `processed_data/` – Cleaned and processed datasets
-- `sql/` – SQL queries used for analysis
-- `dashboard/` – Power BI dashboard files
-- `README.md` – Project documentation
+- Monitor student attendance
+- Identify low-attendance students
+- Understand attendance patterns
+- Compare academic performance across groups
+- Identify potential areas requiring intervention
+- Support data-driven academic monitoring
+
+---
+
+## 📂 Dataset
+
+The project uses student academic and attendance-related data containing demographic, academic, and attendance information.
+
+The raw datasets are maintained separately from the processed data to keep the project structure organized.
+
+---
 
 ## 🚀 Future Improvements
 
-- Add student-level risk classification
-- Add attendance-based alerts
-- Include additional academic performance metrics
-- Build a predictive model for identifying students at academic risk
+Possible future enhancements include:
+
+- Adding automated attendance tracking
+- Building predictive models for student performance
+- Identifying students at risk of poor academic outcomes
+- Adding more interactive Power BI pages
+- Creating automated data refresh pipelines
+- Developing a student performance prediction model using Machine Learning
+
+---
 
 ## 👩‍💻 Author
 
-**Srabani**
+**Srabani Banerjee**
+
+Data Analytics Project | Python | SQL | Power BI
