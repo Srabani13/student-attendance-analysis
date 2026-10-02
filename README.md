@@ -49,6 +49,7 @@ Student Attendance Analysis Dashboard/
 ## 📊 Dashboard
 
 The Power BI dashboard provides an interactive view of:
+![Student Academic Performance Dashboard](student_academic_performance_dashboard.png)
 
 - Total number of students
 - Average attendance percentage
