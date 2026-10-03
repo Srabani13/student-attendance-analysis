@@ -117,9 +117,6 @@ The SQL analysis covers concepts such as:
 - `INNER JOIN`
 - `LEFT JOIN`
 - Subqueries
-- Common Table Expressions (CTEs)
-- Window functions
-- Ranking students
 - Attendance analysis
 - Academic performance analysis
 
